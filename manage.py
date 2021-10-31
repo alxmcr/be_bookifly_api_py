@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'template_django_api_rest.settings.dev')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bookifly_api_py.settings.dev')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

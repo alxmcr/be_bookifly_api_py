@@ -1,5 +1,5 @@
 """
-WSGI config for template_django_api_rest project.
+WSGI config for bookifly_api_py project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'template_django_api_rest.settings.dev')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bookifly_api_py.settings.dev')
 
 application = get_wsgi_application()

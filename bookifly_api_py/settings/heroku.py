@@ -5,7 +5,7 @@ Production Settings for Heroku
 import environ
 
 # If using in your own project, update the project namespace below
-from template_django_api_rest.settings.dev import *
+from bookifly_api_py.settings.dev import *
 
 env = environ.Env(
     # set casting, default value

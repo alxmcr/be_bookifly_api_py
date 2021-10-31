@@ -1,29 +1,29 @@
 ## PostgresSQL - First steps
 
-### Create user 'template_django_api_rest_admin'
+### Create user 'bookifly_api_py_admin'
 
 ```sql
-CREATE USER template_django_api_rest_admin WITH PASSWORD 'template_django_api_rest_admin';
+CREATE USER bookifly_api_py_admin WITH PASSWORD 'bookifly_api_py_admin';
 ```
 
 ### Optimizations database
 
 ```sql
-ALTER ROLE template_django_api_rest SET client_encoding TO 'utf8';
-ALTER ROLE template_django_api_rest SET default_transaction_isolation TO 'read committed';
-ALTER ROLE template_django_api_rest SET timezone TO 'UTC';
+ALTER ROLE bookifly_api_py SET client_encoding TO 'utf8';
+ALTER ROLE bookifly_api_py SET default_transaction_isolation TO 'read committed';
+ALTER ROLE bookifly_api_py SET timezone TO 'UTC';
 ```
 
-### Create database 'template_django_api_rest'
+### Create database 'bookifly_api_py'
 
 ```sql
-CREATE DATABASE template_django_api_rest WITH ENCODING='UTF8';
+CREATE DATABASE bookifly_api_py WITH ENCODING='UTF8';
 ```
 
 ### Grant to user
 
 ```sql
-GRANT ALL PRIVILEGES ON DATABASE template_django_api_rest TO template_django_api_rest_admin;
+GRANT ALL PRIVILEGES ON DATABASE bookifly_api_py TO bookifly_api_py_admin;
 ```
 
 {"mode":"full","isActive":false}
@@ -33,17 +33,17 @@ GRANT ALL PRIVILEGES ON DATABASE template_django_api_rest TO template_django_api
 ###### Drop grant by user
 
 ```sql
-REVOKE ALL PRIVILEGES ON DATABASE template_django_api_rest FROM template_django_api_rest_admin;
+REVOKE ALL PRIVILEGES ON DATABASE bookifly_api_py FROM bookifly_api_py_admin;
 ```
 
-###### Drop user 'template_django_api_rest_admin'
+###### Drop user 'bookifly_api_py_admin'
 
 ```sql
-DROP USER template_django_api_rest_admin;
+DROP USER bookifly_api_py_admin;
 ```
 
-### Drop database 'template_django_api_rest'
+### Drop database 'bookifly_api_py'
 
 ```sql
-DROP DATABASE template_django_api_rest;
+DROP DATABASE bookifly_api_py;
 ```

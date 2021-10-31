@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'template_django_api_rest.urls'
+ROOT_URLCONF = 'bookifly_api_py.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'template_django_api_rest.wsgi.application'
+WSGI_APPLICATION = 'bookifly_api_py.wsgi.application'
 
 
 # Database
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'template_django_api_rest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'template_django_api_rest',
+        'NAME': 'bookifly_api_py',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'HOST': 'localhost',

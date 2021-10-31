@@ -1,4 +1,4 @@
-"""template_django_api_rest URL Configuration
+"""bookifly_api_py URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
