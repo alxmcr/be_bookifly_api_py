@@ -3,7 +3,7 @@ from django.db import models
 class City(models.Model):
     cityId = models.BigAutoField(primary_key=True)
     name = models.CharField("Name", max_length=50, unique=True, null=False)
-    country = models.CharField("Country", max_length=50, unique=True, null=False)
+    country = models.CharField("Country", max_length=50, null=False)
 
     def __str__(self):
         return f"{self.name} {self.country}"
