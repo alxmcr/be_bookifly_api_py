@@ -1,4 +1,4 @@
-# template_django_api API REST
+# ✈️ Bookifly API REST
 
 ![Django](https://res.cloudinary.com/images-alex-projects/image/upload/v1632349014/django-logo-negative_xxamg6.svg)
 
