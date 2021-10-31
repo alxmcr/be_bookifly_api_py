@@ -1,0 +1,26 @@
+[
+    {
+        "model": "api.person",
+        "pk": 1,
+        "fields": {
+            "name": "Daniela",
+            "lastname": "Fernandez"
+        }
+    },
+    {
+        "model": "api.person",
+        "pk": 2,
+        "fields": {
+            "name": "Claudia",
+            "lastname": "Alvarez"
+        }
+    },
+    {
+        "model": "api.person",
+        "pk": 3,
+        "fields": {
+            "name": "Mauricio",
+            "lastname": "Jimenez"
+        }
+    }
+]
