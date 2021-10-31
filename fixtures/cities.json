@@ -1,0 +1,92 @@
+[
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 1,
+            "name": "Ciudad de México",
+            "country": "México"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 2,
+            "name": "Monterrey",
+            "country": "México"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 3,
+            "name": "Guadalajara",
+            "country": "México"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 4,
+            "name": "Veracruz",
+            "country": "México"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 5,
+            "name": "Madrid",
+            "country": "España"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 6,
+            "name": "Paris",
+            "country": "France"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 7,
+            "name": "Buenos Aires",
+            "country": "Argentina"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 8,
+            "name": "Rio de Janeiro",
+            "country": "Brazil"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 9,
+            "name": "Brasilia",
+            "country": "Brazil"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "cityId": 10,
+            "name": "Santiago",
+            "country": "Chile"
+        }
+    }
+]

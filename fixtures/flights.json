@@ -1,0 +1,1402 @@
+[
+    {
+        "model": "api.flight",
+        "pk": 1,
+        "fields": {
+            "flightId": 1,
+            "date": "2021-11-01",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 1,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 2,
+        "fields": {
+            "flightId": 2,
+            "date": "2021-11-01",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 1,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 3,
+        "fields": {
+            "flightId": 3,
+            "date": "2021-11-01",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 1,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 4,
+        "fields": {
+            "flightId": 4,
+            "date": "2021-11-01",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 1,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 5,
+        "fields": {
+            "flightId": 5,
+            "date": "2021-11-01",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 1,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 6,
+        "fields": {
+            "flightId": 6,
+            "date": "2021-11-01",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 1,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 7,
+        "fields": {
+            "flightId": 7,
+            "date": "2021-11-01",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 1,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 8,
+        "fields": {
+            "flightId": 8,
+            "date": "2021-11-01",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 1,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 9,
+        "fields": {
+            "flightId": 9,
+            "date": "2021-11-01",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 1,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 10,
+        "fields": {
+            "flightId": 10,
+            "date": "2021-11-01",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 1,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 11,
+        "fields": {
+            "flightId": 11,
+            "date": "2021-11-02",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 2,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 12,
+        "fields": {
+            "flightId": 12,
+            "date": "2021-11-02",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 2,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 13,
+        "fields": {
+            "flightId": 13,
+            "date": "2021-11-02",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 2,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 14,
+        "fields": {
+            "flightId": 14,
+            "date": "2021-11-02",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 2,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 15,
+        "fields": {
+            "flightId": 15,
+            "date": "2021-11-02",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 2,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 16,
+        "fields": {
+            "flightId": 16,
+            "date": "2021-11-02",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 2,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 17,
+        "fields": {
+            "flightId": 17,
+            "date": "2021-11-02",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 2,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 18,
+        "fields": {
+            "flightId": 18,
+            "date": "2021-11-01",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 2,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 19,
+        "fields": {
+            "flightId": 19,
+            "date": "2021-11-02",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 2,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 20,
+        "fields": {
+            "flightId": 20,
+            "date": "2021-11-02",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 2,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 21,
+        "fields": {
+            "flightId": 21,
+            "date": "2021-11-03",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 3,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 22,
+        "fields": {
+            "flightId": 22,
+            "date": "2021-11-03",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 3,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 23,
+        "fields": {
+            "flightId": 23,
+            "date": "2021-11-03",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 3,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 24,
+        "fields": {
+            "flightId": 24,
+            "date": "2021-11-03",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 3,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 25,
+        "fields": {
+            "flightId": 25,
+            "date": "2021-11-03",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 3,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 26,
+        "fields": {
+            "flightId": 26,
+            "date": "2021-11-03",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 3,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 27,
+        "fields": {
+            "flightId": 27,
+            "date": "2021-11-03",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 3,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 28,
+        "fields": {
+            "flightId": 28,
+            "date": "2021-11-03",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 3,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 29,
+        "fields": {
+            "flightId": 29,
+            "date": "2021-11-03",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 3,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 30,
+        "fields": {
+            "flightId": 30,
+            "date": "2021-11-03",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 3,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 31,
+        "fields": {
+            "flightId": 31,
+            "date": "2021-11-04",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 4,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 32,
+        "fields": {
+            "flightId": 32,
+            "date": "2021-11-04",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 4,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 33,
+        "fields": {
+            "flightId": 33,
+            "date": "2021-11-04",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 4,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 34,
+        "fields": {
+            "flightId": 34,
+            "date": "2021-11-04",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 4,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 35,
+        "fields": {
+            "flightId": 35,
+            "date": "2021-11-04",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 4,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 36,
+        "fields": {
+            "flightId": 36,
+            "date": "2021-11-03",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 4,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 37,
+        "fields": {
+            "flightId": 37,
+            "date": "2021-11-04",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 4,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 38,
+        "fields": {
+            "flightId": 38,
+            "date": "2021-11-04",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 4,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 39,
+        "fields": {
+            "flightId": 39,
+            "date": "2021-11-04",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 4,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 40,
+        "fields": {
+            "flightId": 40,
+            "date": "2021-11-04",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 4,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 41,
+        "fields": {
+            "flightId": 41,
+            "date": "2021-11-05",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 5,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 42,
+        "fields": {
+            "flightId": 42,
+            "date": "2021-11-05",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 5,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 43,
+        "fields": {
+            "flightId": 43,
+            "date": "2021-11-04",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 5,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 44,
+        "fields": {
+            "flightId": 44,
+            "date": "2021-11-05",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 5,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 45,
+        "fields": {
+            "flightId": 45,
+            "date": "2021-11-05",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 5,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 46,
+        "fields": {
+            "flightId": 46,
+            "date": "2021-11-05",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 5,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 47,
+        "fields": {
+            "flightId": 47,
+            "date": "2021-11-05",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 5,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 48,
+        "fields": {
+            "flightId": 48,
+            "date": "2021-11-05",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 5,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 49,
+        "fields": {
+            "flightId": 49,
+            "date": "2021-11-05",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 5,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 50,
+        "fields": {
+            "flightId": 50,
+            "date": "2021-11-05",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 5,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 51,
+        "fields": {
+            "flightId": 51,
+            "date": "2021-11-06",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 6,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 52,
+        "fields": {
+            "flightId": 52,
+            "date": "2021-11-06",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 6,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 53,
+        "fields": {
+            "flightId": 53,
+            "date": "2021-11-06",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 6,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 54,
+        "fields": {
+            "flightId": 54,
+            "date": "2021-11-06",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 6,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 55,
+        "fields": {
+            "flightId": 55,
+            "date": "2021-11-06",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 6,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 56,
+        "fields": {
+            "flightId": 56,
+            "date": "2021-11-06",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 6,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 57,
+        "fields": {
+            "flightId": 57,
+            "date": "2021-11-06",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 6,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 58,
+        "fields": {
+            "flightId": 58,
+            "date": "2021-11-06",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 6,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 59,
+        "fields": {
+            "flightId": 59,
+            "date": "2021-11-06",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 6,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 60,
+        "fields": {
+            "flightId": 60,
+            "date": "2021-11-06",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 6,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 61,
+        "fields": {
+            "flightId": 61,
+            "date": "2021-11-07",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 7,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 62,
+        "fields": {
+            "flightId": 62,
+            "date": "2021-11-07",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 7,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 63,
+        "fields": {
+            "flightId": 63,
+            "date": "2021-11-07",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 7,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 64,
+        "fields": {
+            "flightId": 64,
+            "date": "2021-11-07",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 7,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 65,
+        "fields": {
+            "flightId": 65,
+            "date": "2021-11-07",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 7,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 66,
+        "fields": {
+            "flightId": 66,
+            "date": "2021-11-07",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 7,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 67,
+        "fields": {
+            "flightId": 67,
+            "date": "2021-11-07",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 7,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 68,
+        "fields": {
+            "flightId": 68,
+            "date": "2021-11-07",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 7,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 69,
+        "fields": {
+            "flightId": 69,
+            "date": "2021-11-07",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 7,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 70,
+        "fields": {
+            "flightId": 70,
+            "date": "2021-11-07",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 7,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 71,
+        "fields": {
+            "flightId": 71,
+            "date": "2021-11-08",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 8,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 72,
+        "fields": {
+            "flightId": 72,
+            "date": "2021-11-08",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 8,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 73,
+        "fields": {
+            "flightId": 73,
+            "date": "2021-11-08",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 8,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 74,
+        "fields": {
+            "flightId": 74,
+            "date": "2021-11-08",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 8,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 75,
+        "fields": {
+            "flightId": 75,
+            "date": "2021-11-08",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 8,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 76,
+        "fields": {
+            "flightId": 76,
+            "date": "2021-11-08",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 8,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 77,
+        "fields": {
+            "flightId": 77,
+            "date": "2021-11-08",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 8,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 78,
+        "fields": {
+            "flightId": 78,
+            "date": "2021-11-08",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 8,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 79,
+        "fields": {
+            "flightId": 79,
+            "date": "2021-11-08",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 8,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 80,
+        "fields": {
+            "flightId": 80,
+            "date": "2021-11-08",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 8,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 81,
+        "fields": {
+            "flightId": 81,
+            "date": "2021-11-09",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 9,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 82,
+        "fields": {
+            "flightId": 82,
+            "date": "2021-11-09",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 9,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 83,
+        "fields": {
+            "flightId": 83,
+            "date": "2021-11-09",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 9,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 84,
+        "fields": {
+            "flightId": 84,
+            "date": "2021-11-09",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 9,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 85,
+        "fields": {
+            "flightId": 85,
+            "date": "2021-11-09",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 9,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 86,
+        "fields": {
+            "flightId": 86,
+            "date": "2021-11-09",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 9,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 87,
+        "fields": {
+            "flightId": 87,
+            "date": "2021-11-09",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 9,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 88,
+        "fields": {
+            "flightId": 88,
+            "date": "2021-11-09",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 9,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 89,
+        "fields": {
+            "flightId": 89,
+            "date": "2021-11-09",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 9,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 90,
+        "fields": {
+            "flightId": 90,
+            "date": "2021-11-09",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 9,
+            "flight_to": 10
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 91,
+        "fields": {
+            "flightId": 91,
+            "date": "2021-11-10",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 10,
+            "flight_to": 1
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 92,
+        "fields": {
+            "flightId": 92,
+            "date": "2021-11-10",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 10,
+            "flight_to": 2
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 93,
+        "fields": {
+            "flightId": 93,
+            "date": "2021-11-10",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 10,
+            "flight_to": 3
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 94,
+        "fields": {
+            "flightId": 94,
+            "date": "2021-11-10",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 10,
+            "flight_to": 4
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 95,
+        "fields": {
+            "flightId": 95,
+            "date": "2021-11-10",
+            "departure": "22:00:00",
+            "arrival": "23:00:00",
+            "duration": "01:00:00",
+            "price": "300.00",
+            "flight_from": 10,
+            "flight_to": 5
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 96,
+        "fields": {
+            "flightId": 96,
+            "date": "2021-11-10",
+            "departure": "10:00:00",
+            "arrival": "12:00:00",
+            "duration": "02:00:00",
+            "price": "300.00",
+            "flight_from": 10,
+            "flight_to": 6
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 97,
+        "fields": {
+            "flightId": 97,
+            "date": "2021-11-10",
+            "departure": "11:00:00",
+            "arrival": "13:00:00",
+            "duration": "02:00:00",
+            "price": "250.00",
+            "flight_from": 10,
+            "flight_to": 7
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 98,
+        "fields": {
+            "flightId": 98,
+            "date": "2021-11-10",
+            "departure": "15:00:00",
+            "arrival": "18:00:00",
+            "duration": "03:00:00",
+            "price": "400.00",
+            "flight_from": 10,
+            "flight_to": 8
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 99,
+        "fields": {
+            "flightId": 99,
+            "date": "2021-11-10",
+            "departure": "19:00:00",
+            "arrival": "20:00:00",
+            "duration": "01:00:00",
+            "price": "700.00",
+            "flight_from": 10,
+            "flight_to": 9
+        }
+    },
+    {
+        "model": "api.flight",
+        "pk": 100,
+        "fields": {
+            "flightId": 100,
+            "date": "2021-11-10",
+            "departure": "21:00:00",
+            "arrival": "22:00:00",
+            "duration": "01:00:00",
+            "price": "400.00",
+            "flight_from": 10,
+            "flight_to": 10
+        }
+    }
+]
