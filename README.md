@@ -103,7 +103,7 @@ python manage.py loaddata fixtures/cities
 python manage.py loaddata fixtures/flights
 ```
 
-Note.- There is data until Nov 10th, 2021.
+Note.- There is data until `Nov 10th, 2021`.
 
 Start the server
 
@@ -154,6 +154,16 @@ Please, follow the [Deploying to Heroku](./HEROKU.md) steps.
 
 [https://bookifly-api-py.herokuapp.com/](https://bookifly-api-py.herokuapp.com/)
 
+## Test Data
+
+Some examples that you can use to check the functionality are:
+
+- `Nov 1, 2021`: Ciudad de México -> Monterrey
+- `Nov 2, 2021`: Monterrey -> Guadalajara
+- `Nov 3, 2021`: Guadalajara -> Veracruz
+- `Nov 6, 2021`: Paris -> Buenos Aires
+
+Of course, you can use the `Django Admin` if you want to create a specific flight (date, time, origin, and destination). Also, you can use the `endpoints` to insert new information or update it. They were mentionated previously.
   
 ## Authors
 
