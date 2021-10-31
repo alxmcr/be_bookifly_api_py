@@ -1,11 +1,26 @@
-from api.models import Person
+from api.models import City, Flight
 from rest_framework import serializers
 
 
-class PersonSerializer(serializers.ModelSerializer):
+class CitySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Person
+        model = City
         fields = [
-            'name',
-            'lastname'
+            "cityId",
+            "name",
+            "country"
+        ]
+
+class FlightSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Flight
+        fields = [
+            "flightId",
+            "date",
+            "departure",
+            "arrival",
+            "duration",
+            "price",
+            "flight_from",
+            "flight_to"
         ]
