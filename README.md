@@ -102,6 +102,8 @@ python manage.py loaddata fixtures/cities
 python manage.py loaddata fixtures/flights
 ```
 
+Note.- There is data until Nov 10th, 2021.
+
 Start the server
 
 ```bash
