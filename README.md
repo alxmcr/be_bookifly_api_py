@@ -2,7 +2,7 @@
 
 ![Django](https://res.cloudinary.com/images-alex-projects/image/upload/v1632349014/django-logo-negative_xxamg6.svg)
 
-API REST to manage and get information about flights and flights bookings using Python, Django, Django Rest Framework, PostgreSQL, and Heroku.
+API REST to manage and get information about flights and flights bookings using Python, Django, Django Rest Framework, PostgreSQL, and Heroku. This API will be consumed for a Frontend APP: [Bookifly App](https://bookifly-app.netlify.app/)
 
 ## Features
 
