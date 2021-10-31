@@ -152,7 +152,7 @@ Please, follow the [Deploying to Heroku](./HEROKU.md) steps.
   
 ## Demo
 
-[https://bookifly_api_py.herokuapp.com/](https://bookifly_api_py.herokuapp.com/)
+[https://bookifly-api-py.herokuapp.com/](https://bookifly-api-py.herokuapp.com/)
 
   
 ## Authors
