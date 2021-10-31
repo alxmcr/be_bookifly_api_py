@@ -145,6 +145,9 @@ PostgreSQL's url (or other database engine)
 
 How many dynos do you use for your API?
 
+## Deploy to Heroku
+
+Please, follow the [Deploying to Heroku](./HEROKU.md) steps.
   
 ## Demo
 
