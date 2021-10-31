@@ -40,7 +40,7 @@ CORS_ALLOWED_ORIGINS = [
 ```bash
 heroku config:set ALLOWED_HOSTS=bookifly-api-py.herokuapp.com
 heroku config:set CORS_ALLOWED_ORIGINS=bookifly-app.netlify.app
-heroku config:set DJANGO_SETTINGS_MODULE=bookifly-api-py.settings.heroku
+heroku config:set DJANGO_SETTINGS_MODULE=bookifly_api_py.settings.heroku
 heroku config:set SECRET_KEY="1qx4nw-yl5w"
 heroku config:set WEB_CONCURRENCY=1
 ```
