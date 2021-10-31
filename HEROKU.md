@@ -35,17 +35,22 @@ CORS_ALLOWED_ORIGINS = [
 
 ## Heroku Enviroment Variables
 
-**Project name**: `bookifly-api-py`
+**Project information**: `bookifly_api_py`
+
+```bash
+heroku config:set DJANGO_SETTINGS_MODULE=bookifly_api_py.settings.heroku
+heroku config:set SECRET_KEY="1qx4nw-yl5w"
+```
+
+*`SECRET_KEY` debe ser cambiado y guardado en un lugar seguro.
+
+**Heroku name**: `bookifly-api-py` (with dashes)
 
 ```bash
 heroku config:set ALLOWED_HOSTS=bookifly-api-py.herokuapp.com
 heroku config:set CORS_ALLOWED_ORIGINS=bookifly-app.netlify.app
-heroku config:set DJANGO_SETTINGS_MODULE=bookifly_api_py.settings.heroku
-heroku config:set SECRET_KEY="1qx4nw-yl5w"
 heroku config:set WEB_CONCURRENCY=1
 ```
-
-*`SECRET_KEY` debe ser cambiado y guardado en un lugar seguro.
 
 ## Database
 
