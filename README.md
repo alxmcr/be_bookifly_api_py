@@ -23,7 +23,13 @@ API REST to manage and get information about flights and flights bookings using 
 
 I learned and practice more about Python, Django, Django Rest Framework, PostgreSQL, and Heroku.
 
-## Tech Stack
+## Tech stack
+
+- Python 3
+- pip
+- PostgreSQL
+
+## Python packages
 
 - `python`: 3.9.6
 - `django`: 3.2.6
@@ -38,6 +44,8 @@ I learned and practice more about Python, Django, Django Rest Framework, Postgre
 - `django-filter`: 2.4.0
 
 ## Run Locally
+
+Note.- You should follow this [guide](https://github.com/alxmcr/bookifly_api_py/blob/main/POSTGRESQL.md).
 
 Clone the project
 
@@ -72,7 +80,11 @@ bookifly_api_py/Scripts/activate.bat
 Install Python packages
 
 ```bash
-  pip install -r requirements.txt
+# Ubuntu. Install pip
+sudo apt install python3-pip
+
+# Install Python packages
+pip install -r requirements.txt
 ```
 
 **References**

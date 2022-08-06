@@ -1,5 +1,15 @@
 ## PostgresSQL - First steps
 
+## Install PostgreSQL
+
+```bash
+# Ubuntu: refresh your server’s local package index
+sudo apt update
+
+# Ubuntu: PostgreSQL + utilities
+sudo apt install postgresql postgresql-contrib
+```
+
 ### Create user 'bookifly_api_py_admin'
 
 ```sql
