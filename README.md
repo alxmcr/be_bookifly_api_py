@@ -53,9 +53,14 @@ Go to the project directory
 
 Create a virtual environment
 
-**Reference:** [How to install Django on Windows - Link](https://docs.djangoproject.com/en/3.2/howto/windows/)
-
 ```bash
+# Ubuntu: update repositories
+sudo apt-get update
+
+# Ubuntu: Install 'python3-venv'
+sudo apt-get install python3-venv
+
+# Create a virtual environment
 py -m venv bookifly_api_py
 bookifly_api_py/Scripts/activate.bat
 ```
@@ -65,6 +70,10 @@ Install Python packages
 ```bash
   pip install -r requirements.txt
 ```
+
+**References**
+
+[How to install Django on Windows - Link](https://docs.djangoproject.com/en/3.2/howto/windows/)
 
 ## PostgreSQL Database & Migrations
 
