@@ -9,6 +9,11 @@ sudo apt update
 # Ubuntu: PostgreSQL + utilities
 sudo apt install postgresql postgresql-contrib
 
+# Ubuntu: The libpq is the client library used by psql,
+# the PostgreSQL command line client,
+# to connect to the database
+sudo apt install libpq5
+
 # You can now start the database server using:
 sudo pg_ctlcluster 12 main start
 
