@@ -8,12 +8,40 @@ sudo apt update
 
 # Ubuntu: PostgreSQL + utilities
 sudo apt install postgresql postgresql-contrib
+
+#You can now start the database server using:
+sudo pg_ctlcluster 12 main start
+```
+
+## Using PostgreSQL
+
+### pgsql
+
+```bash
+# created a user account called postgres
+sudo -i -u postgres
+
+# you can access the Postgres prompt by running:
+psql
+
+# Where you can run PostgreSQL commands
+postgres=#
 ```
 
 ### Create user 'bookifly_api_py_admin'
 
 ```sql
+postgres=#
+
 CREATE USER bookifly_api_py_admin WITH PASSWORD 'bookifly_api_py_admin';
+```
+
+### Create an user and role
+
+```bash
+postgres=#
+
+createuser --interactive
 ```
 
 ### Optimizations database
@@ -50,6 +78,12 @@ REVOKE ALL PRIVILEGES ON DATABASE bookifly_api_py FROM bookifly_api_py_admin;
 
 ```sql
 DROP USER bookifly_api_py_admin;
+```
+
+##### Drop role 'bookifly_api_py_admin' 
+
+```sql
+DROP ROLE bookifly_api_py_admin;
 ```
 
 ### Drop database 'bookifly_api_py'
