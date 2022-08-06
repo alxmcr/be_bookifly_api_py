@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'bookifly_api_py.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bookifly_api_py',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
