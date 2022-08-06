@@ -60,7 +60,11 @@ sudo apt-get update
 # Ubuntu: Install 'python3-venv'
 sudo apt-get install python3-venv
 
-# Create a virtual environment
+# {Ubuntu}Create a virtual environment
+# python3 -m venv /path/to/new/virtual/environment
+python3 -m venv bookifly_api_py
+
+# {Windows} Create a virtual environment
 py -m venv bookifly_api_py
 bookifly_api_py/Scripts/activate.bat
 ```
