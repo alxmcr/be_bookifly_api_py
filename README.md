@@ -73,7 +73,7 @@ sudo apt-get install python3-venv
 python3 -m venv bookifly_api_py
 
 # {Windows} Create a virtual environment
-py -m venv bookifly_api_py
+python3 -m venv bookifly_api_py
 bookifly_api_py/Scripts/activate.bat
 ```
 
